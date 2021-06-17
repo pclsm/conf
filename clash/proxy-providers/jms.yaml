@@ -1,0 +1,27 @@
+proxies:
+  - name: JMS-3
+    server: c10s3.jamjams.net
+    port: 11573
+    type: vmess
+    uuid: 922fee41-42cd-40df-8b31-f6465beef95a
+    alterId: 8
+    cipher: auto
+    tls: false
+
+  - name: JMS-4
+    server: c10s4.jamjams.net
+    port: 11573
+    type: vmess
+    uuid: 922fee41-42cd-40df-8b31-f6465beef95a
+    alterId: 8
+    cipher: auto
+    tls: false
+
+  - name: JMS-5
+    server: c10s5.jamjams.net
+    port: 11573
+    type: vmess
+    uuid: 922fee41-42cd-40df-8b31-f6465beef95a
+    alterId: 8
+    cipher: auto
+    tls: false

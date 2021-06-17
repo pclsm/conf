@@ -1,0 +1,19 @@
+proxies:
+  - name: V1-v2ray
+    server: v1.pclsm.com
+    port: 443
+    type: vmess
+    uuid: 37b7fc05-74a3-fa2b-67c0-2cec7705554b
+    alterId: 8
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /v2path
+    ws-headers:
+      Host: v1.pclsm.com
+
+  - name: V2-trojan
+    type: trojan
+    server: v2.pclsm.com
+    port: 443
+    password: 18062581225
